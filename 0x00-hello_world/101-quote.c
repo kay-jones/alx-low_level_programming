@@ -1,23 +1,11 @@
 #include <stdio.h>
-
-
-
+#include <unistd.h>
 /**
- *
- * main - program execution starts here
- *
- * Description: this is the main function
- *
- * Return: an integer to signify success or fail
- *
+ * main - Entry point
+ * Return:1
  */
-
 int main(void)
-
 {
-
-	    fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"), 59, 1, stderr);
-
-	        return (1);
-
+		write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+			return (1);
 }
