@@ -23,15 +23,15 @@
 
 	{
 
-		alphabet = 'a';
+	alphabet = 'a';
 
-		while (alphabet <= 'z')
+	while (alphabet <= 'z')
 
 		{
 
-			_putchar(alphabet);
+		_putchar(alphabet);
 
-			alphabet++;
+		alphabet++;
 
 		}
 
