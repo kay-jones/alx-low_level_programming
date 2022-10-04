@@ -4,12 +4,12 @@
  *
  * print_alphabet_x10 - prints a - z 10 times
  *
- *Description: prints a - z 10 times
+ * Description: prints a - z 10 times
  *
- *Return: void
+ * Return: void
  */
- 
-   void print_alphabet_x10(void)
+
+void print_alphabet_x10(void)
 
 {
 
