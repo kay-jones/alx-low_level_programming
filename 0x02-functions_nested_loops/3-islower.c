@@ -3,16 +3,9 @@
 
 
 /**
- * _islower - prints 1 or 0 depending on input
- *
- * @c: first parameter
- *
- *
- *
- * Description: prints all lowercase letters
- *
- * Return: Always(0).
- *
+ * _islower - checks if its a lower case single char
+ * @c: characters to be checked
+ * Return: 1 if lower case otherwise return 0
  */
 
 
