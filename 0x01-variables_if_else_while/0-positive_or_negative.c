@@ -6,7 +6,9 @@
 /**
  * main - Entry point
  *
- * Return - 0.
+ * Description - It is the main function
+ *
+ * Return: An integer signifes success or fail
  */
 int main(void)
 {
