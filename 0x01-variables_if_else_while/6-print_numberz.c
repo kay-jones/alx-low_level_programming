@@ -13,7 +13,7 @@ int main(void)
 
 	while (digit < 10)
 	{
-		putchar("%d", digit);
+		putchar(digit);
 		digit++;
 	}
 	putchar("\n");
