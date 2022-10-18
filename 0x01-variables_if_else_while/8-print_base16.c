@@ -22,6 +22,7 @@ int main(void)
 		{
 			putchar('a' + digit % 10);
 		}
+	}
 		putchar('\n');
 		return (0);
 }
