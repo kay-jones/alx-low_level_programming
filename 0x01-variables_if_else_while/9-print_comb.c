@@ -11,7 +11,7 @@ int main(void)
 {
 	int digit = 0;
 
-	while (digit < 10;)
+	while (digit < 10);
 		digit++
 	{
 		putchar('0' + digit);
