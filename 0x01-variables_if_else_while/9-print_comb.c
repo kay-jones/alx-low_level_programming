@@ -5,12 +5,12 @@
  *
  * Description - prints all possible combination of single-digit numbers
  *
- * return: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
 	int digit = 0;
-	
+
 	for (digit = 0; digit < 10; digit++)
 	{
 		putchar('0' + digit);
