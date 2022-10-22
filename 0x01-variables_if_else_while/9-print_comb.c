@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-	int digit;
+	int digit = 0;
 	
-	for (digit = 0; digit < 10; digit++)
+	for (digit < 10; digit++)
 	{
 		putchar('0' + digit);
-		if (digit < 9);
+		if (digit < 9)
 		{
 			putchar(',');
 			putchar(' ');
