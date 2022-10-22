@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-	int digit = 0;
+	int digit;
 
-	for (digit < 16; digit++)
+	for (digit = 0; digit < 16; digit++)
 
 	{
 		if (digit < 10)
@@ -24,5 +24,6 @@ int main(void)
 		}
 	}
 		putchar('\n');
+
 		return (0);
 }
