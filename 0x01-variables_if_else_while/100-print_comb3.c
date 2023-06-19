@@ -13,14 +13,33 @@ int main(void)
 
 	int i, j;
 
-	for (i = 0; i < 10; i++)
-		for (j = i + 1; j < 10; j++)
+	i = 48;
+	j = 49;
+
+	while ((i < 57) && (j < 58))
+	{
+		putchar(i);
+		putchar(j);
+		if ((i == 56) && (j == 57))
 		{
-			putchar("%d%d", i, j);
-			if (i != 8 || j != 9)
-			{
-				putchar(", ");
-			}
+			putchar(\n);
+			i++;
+			J++;
 		}
+		else
+		{
+				putchar(44);
+				putchar(32);
+				if (j < 57)
+				{
+					j++;
+				}
+				else
+				{
+					i++;
+					j = 1 + i;
+				}
+		}
+	}
 		return (0);
 }
